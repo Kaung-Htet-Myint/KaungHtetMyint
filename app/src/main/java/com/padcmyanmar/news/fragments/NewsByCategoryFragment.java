@@ -56,25 +56,6 @@ public class NewsByCategoryFragment extends Fragment implements NewsActionDelega
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
-        EventBus.getDefault().register(this);
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        EventBus.getDefault().unregister(this);
-    }
-
-
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onNewsLoaded(LoadedNewsEvent event){
-
-        Log.d(MMNewsApp.LOG_TAG,"onNewsLoaded : " +event.getNewsVOList().size());
-        mNewsByCategoryAdapter.setNews(event.getNewsVOList());
-    }
-    @Override
     public void onTapNewsItem() {
 
     }

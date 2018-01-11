@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PADC-3-F-MNL-MM-News.iml" filepath="$PROJECT_DIR$/PADC-3-F-MNL-MM-News.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tab-Layout-Fragment.iml" filepath="$PROJECT_DIR$/Tab-Layout-Fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
